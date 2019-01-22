@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+        <attr name="animAlphaStart" format="float"/>
+        <attr name="expandIndicator" format="reference"/>
+        <attr name="collapseIndicator" format="reference"/>
+        <attr name="expandToggleType" format="enum">
+            <enum name="ImageButton" value="0"/>
+            <enum name="TextView" value="1"/>
+        </attr>
+        <attr name="expandableTextId" format="reference"/>
+        <attr name="expandCollapseToggleId" format="reference"/>
+        <attr name="expandToggleOnTextClick" format="boolean"/>
+        <attr name="canCollapse" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatingBar">
+        <attr format="integer" name="maxScore"/>
+        <attr format="dimension" name="starDistance"/>
+        <attr format="dimension" name="starSize"/>
+        <attr format="integer" name="starCount"/>
+        <attr format="reference" name="starEmpty"/>
+        <attr format="reference" name="starFill"/>
+    </declare-styleable>
+</resources>
